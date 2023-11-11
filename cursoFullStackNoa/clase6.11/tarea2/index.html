@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./asses/IcouiLogInLtr.png">
+</head>
+<body>
+    <div id="form" class="div-form">
+        <h2>formulario de registro</h2>
+        <form action="">
+            <fieldset>
+                <label for="nombre">ingrese su nombre: <input id="nombre" name="nombre" type="text" maxlength="30" minlength="4" required /></label>
+                <label for="apellido">ingrese su apellido: <input id="apellido" name="apellido" type="text" maxlength="30" minlength="4" required /></label>
+                <label for="nombreUser">ingrese un nombre de usuario: <input id="nombreUser" name="nombreUser" type="text" maxlength="30" minlength="6" placeholder="juan23" required /></label>
+                <label for="correo">ingrese su correo: <input id="correo" name="correo" type="email" minlength="12" maxlength="28" placeholder="email@hotmail.com" required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="contraseña">ingrese su contraseña: <input id="contraseña" type="password" name="contraseña" minlength="8" maxlength="36" required></label>
+                <label for="confirContraseña">confirme su contraseña: <input id="confirContraseña" type="password" name="confirContraseña" minlength="8" maxlength="36" required></label>
+                <label for="edad">ingrese su edad (años): <input id="edad" type="number" name="edad" min="16" max="100" minlength="1" maxlength="3"/></label>
+                <label for="ubicacion">seleccione su provincia: 
+                  <select id="ubicacion" name="ubicacion" required>
+                    <option value="" selected disabled>(seleccione uno)</option>
+                    <option value="1">santiago del estero</option>
+                    <option value="2">tucumán</option>
+                    <option value="3">salta</option>
+                    <option value="4">jujuy</option>
+                    <option value="5">Otro</option>
+                  </select>
+                </label>
+            </fieldset>
+            <button id="boton-enviarform" class="boton-enviar" type="submit">registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- Ejercicio 2: Formulario de Registro
+Crea un formulario de registro que incluya campos para nombre de usuario, correo electrónico, contraseña y una confirmación de contraseña. Añade un botón de "Registrarse" para enviar el formulario.
+
+Ejercicio 3: Estilización con CSS
+Elige uno de los formularios anteriores y utiliza CSS para personalizar su apariencia. Puedes cambiar colores, fuentes, tamaños, agregar bordes y sombras, y hacer que se vea más atractivo.
+
+Ejercicio 4: Validación de Formulario
+Agrega validación de formulario a uno de los formularios. Por ejemplo, puedes usar atributos HTML5 como required, type="email", y minlength para asegurarte de que los datos ingresados sean válidos. --> 

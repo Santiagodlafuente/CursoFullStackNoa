@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lafuente Santiago Daniel">
+    <meta name="description" content="Formulario de Registro">
+    <meta name="keyword" content="forumulario, datos, registro">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./asses/IconLogOut.png">
+</head>
+<body>
+    <div id="form" class="div-form">
+        <h2>formulario de registro</h2>
+        <form action="">
+            <fieldset>
+                <label for="nombre">ingrese nombre: <input id="nombre" name="nombre" type="text" required /></label>
+                <label for="apellido">ingrese apellido: <input id="apellido" name="apellido" type="text" required /></label>
+                <label for="correo">ingrese correo: <input id="correo" name="correo" type="email" required  placeholder="email@hotmail.com"/></label>
+            </fieldset>
+            <fieldset>
+                <label for="aunto">asunto</label>
+                <input type="text" name="asunto" id="asunto" maxlength="50" minlength="8" required>
+                <label for="mensaje">mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="55" rows="5" maxlength="150" minlength="20" placeholder="Agregue un mensaje"></textarea>
+            </fieldset>
+            <button id="boton-enviarform" class="boton-enviar">enviar</button>
+        </form>
+    </div>
+</html>
+
+<!-- Ejercicio 1: Formulario de Contacto
+Crea un formulario de contacto que incluya campos para el nombre, correo electrónico, asunto y un área de texto para el mensaje. Utiliza etiquetas <input>, <textarea>, y <label>. Estiliza el formulario con CSS para que se vea atractivo.
+
