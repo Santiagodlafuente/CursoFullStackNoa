@@ -1,0 +1,24 @@
+/* POSITION RELATIVE */
+
+.padre {
+    background-color: aqua;
+}
+
+#boxSelected {
+    background-color: rgb(196, 255, 201);
+    /* aplicamos la position re lative solo a esta caja y vemos como se mueve mientras las demas mantienen su posicion*/
+    position: relative;
+    left: 180px;
+    bottom: 120px;
+}
+
+p {
+    color: black;
+}
+
+#boxSelected::after {
+    content: "position: relative";
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-weight: bold;
+}

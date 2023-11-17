@@ -1,0 +1,54 @@
+/* Fuentes */
+:root {
+    --fuente-letra1-: 'Comic Neue', cursive;
+    --fuente-letra2-: 'Roboto Condensed', sans-serif;
+    --fuente-letra3-: 'arial';
+}
+
+
+
+.title {
+    font-family: var(--fuente-letra3-);
+    text-transform: capitalize;
+    color: var(--Color-icon-);
+    text-align: center;
+}
+
+
+/* colores */
+
+:root {
+    --Color-p-: #fff;
+    --Color-icon-: #4f46e5;
+    --Color-fondo-: #faebd7;
+    --Color-padre-: #f0f8ff;
+}
+
+body {
+    background-color: var(--Color-fondo-);
+    height: 1500px;
+}
+
+.padre {
+    background-color: var(--Color-padre-);
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    border: 3px dotted black;
+}
+
+.hijo {
+    background-color: var(--Color-icon-);
+    width: 120px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid rgb(252, 0, 0);
+    text-align: center;
+}
+
+p {
+    color: var(--Color-p-);
+    text-transform: uppercase;
+    font-family: var(--fuente-letra1-);
+}

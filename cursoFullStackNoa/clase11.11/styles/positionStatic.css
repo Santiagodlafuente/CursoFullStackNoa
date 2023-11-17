@@ -1,0 +1,25 @@
+/* POSITION STATIC (por defecto) */
+.padre {
+    background-color: aqua;
+    /* position: static;  POR DEFECTO*/
+}
+
+.hijo {
+    background-color: bisque;
+    /* las cajas no hace caso a ninguna propiedad de las siguientes, por tener position: static (por defecto) */
+    right: 20px;
+    left: 10px;
+    bottom: 50px;
+    top: 30px;
+}
+
+p {
+    color: black;
+}
+
+#boxSelected::after {
+    content: "position: static";
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-weight: bold;
+}

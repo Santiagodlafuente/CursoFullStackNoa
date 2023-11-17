@@ -1,0 +1,26 @@
+/* POSITION STICKY */
+
+.padre {
+    background-color: aqua;
+}
+
+#boxSelected {
+    background-color: rgb(255, 0, 0);
+    /* aplicamos la position sticky solo a esta caja, y vemos como se mueve mientras nosotros hacemos scroll por la pagina, pero solo hasta donde termina el contenedor; respetando los valores que pusimos y ademas las otras cajas respetan su lugar que este tenia antes*/
+    position: sticky;
+    border-radius: 100px;
+    border: 5px dotted white;
+    left: 300px;
+    top: 20px;
+}
+
+p {
+    color: black;
+}
+
+#boxSelected::after {
+    content: "position: sticky";
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-weight: bold;
+}

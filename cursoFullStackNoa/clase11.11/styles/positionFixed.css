@@ -1,0 +1,25 @@
+/* POSITION FIXED */
+
+.padre {
+    background-color: aqua;
+}
+
+#boxSelected {
+    background-color: rgb(247, 0, 255);
+    /* aplicamos la position fixed solo a esta caja, y vemos como se mueve mientras nosotros hacemos scroll por la pagina, respetando los valores que pusimos y ademas las otras cajas pasan a ocupar el lugar que este tenia antes*/
+    position: fixed;
+    border-radius: 60px;
+    left: 300px;
+    bottom: 100px;
+}
+
+p {
+    color: black;
+}
+
+#boxSelected::after {
+    content: "position: fixed";
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-weight: bold;
+}
