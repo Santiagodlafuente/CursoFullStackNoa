@@ -1,0 +1,22 @@
+:root{
+    --color-fondo-: #f5f5dc;
+
+    --color-boton-: #c11119;
+
+    --color-letter-: #f3f1f1;
+    --color-border-: #cccccc;
+
+    --montserrat-: 'Montserrat', sans-serif;
+    --open-sans-: 'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-fondo-);
+}

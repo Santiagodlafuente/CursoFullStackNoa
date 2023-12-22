@@ -1,0 +1,65 @@
+header{
+    display: flex;
+
+}
+.divNav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divNav img{
+    width: 100px;
+    height: 60px;
+}
+
+.divNav div{
+    width: 250px;
+    height: 60px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.divNav div select{
+    width: 120px;
+    height: 28px;
+    background-color: var(--color-fondo-);
+    border: 1px solid var(--color-border-);
+    border-radius: 2px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: var(--color-letter-);
+    text-transform: capitalize;
+}
+
+.divNav div select option{
+    width: 120px;
+    height: 28px;
+    border: 1px solid var(--color-border-);
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.divNav div button{
+    width: 200px;
+    height: 28px;
+    border: 1px solid var(#cccccc);
+    background-color: var(--color-boton-);
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize
+}
+
+.imagen-Fondo{
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
